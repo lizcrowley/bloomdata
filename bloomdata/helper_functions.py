@@ -16,7 +16,7 @@ def random_float(min_val, max_val):
     return ran
 
 def random_bowling_score():
-    score = rng.integers(low=0, high=300, size=None)
+    score = rng.integers(low=0, high=301, size=None)
 
     return score
 
