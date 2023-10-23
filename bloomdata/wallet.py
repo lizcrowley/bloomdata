@@ -58,7 +58,7 @@ class Wallet:
     def __repr__(self):
         return f"Wallet with balance of: ${self.balance}"
 
-#if __name__ == "__main__":
+#if __name__ == "__main__": 
     # adding .balance behind wallet1 in the print function
     # will print only 100 instead of the whole statement
     # print(wallet1.add_cash(60))
